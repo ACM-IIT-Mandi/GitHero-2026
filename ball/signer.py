@@ -4,7 +4,7 @@ import hmac
 
 
 def load_key():
-    return open("keys/masterball.key").read().strip()
+    return open("config/signing.ini").read().split("key = ")[1].split()[0]
 
 
 def sign(serial):
