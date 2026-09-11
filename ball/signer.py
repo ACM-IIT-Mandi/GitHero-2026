@@ -4,7 +4,8 @@ import hmac
 
 
 def load_key():
-    return open("config/signing.ini").read().split("key = ")[1].split()[0]
+    import os
+    return os.environ["SILPH_MB_KEY"]
 
 
 def sign(serial):
