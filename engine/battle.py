@@ -31,3 +31,8 @@ OUTRAGE_TURNS = 2
 def locked_in(move, turns_used):
     """Outrage locks the user in for two turns."""
     return move == "outrage" and turns_used < OUTRAGE_TURNS
+
+
+def after_move(move, turns_used):
+    """Outrage confuses the user when it ends."""
+    return "confused" if move == "outrage" and turns_used >= OUTRAGE_TURNS else None
