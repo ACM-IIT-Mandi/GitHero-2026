@@ -19,6 +19,9 @@ class TypeChartTest(unittest.TestCase):
     def test_fighting_breaks_ice(self):
         self.assertEqual(multiplier("fighting", "ice"), 2.0)
 
+    def test_dragon_beats_dragon(self):
+        self.assertEqual(multiplier("dragon", "dragon"), 2.0)
+
 
 if __name__ == "__main__":
     unittest.main()

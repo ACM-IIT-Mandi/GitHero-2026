@@ -13,6 +13,9 @@ CHART = {
     ("fighting", "ice"): 2.0,
     ("fighting", "normal"): 2.0,
     ("psychic", "fighting"): 2.0,
+    ("dragon", "dragon"): 2.0,
+    ("ice", "dragon"): 2.0,
+    ("fire", "dragon"): 0.5,
 }
 
 
