@@ -13,3 +13,8 @@ FREEZE_TURNS = 2
 def can_move(status, turns_frozen):
     """A frozen Pokemon skips its turn until it thaws."""
     return not (status == "frozen" and turns_frozen < FREEZE_TURNS)
+
+
+def critical(power, attack_type, defend_type):
+    """A critical hit ignores a resisted match-up."""
+    return int(power * 1.5 * max(1.0, multiplier(attack_type, defend_type)))
