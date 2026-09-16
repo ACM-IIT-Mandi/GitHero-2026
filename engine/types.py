@@ -10,6 +10,9 @@ CHART = {
     ("ice", "grass"): 2.0,
     ("ice", "water"): 0.5,
     ("fire", "ice"): 2.0,
+    ("fighting", "ice"): 2.0,
+    ("fighting", "normal"): 2.0,
+    ("psychic", "fighting"): 2.0,
 }
 
 
