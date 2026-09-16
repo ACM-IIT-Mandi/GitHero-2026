@@ -23,3 +23,11 @@ def critical(power, attack_type, defend_type):
 def counter(damage_taken):
     """Counter returns double the last hit taken."""
     return damage_taken * 2
+
+
+STAGE_BONUS = 0.5
+
+
+def boosted(power, stages):
+    """Dragon Dance raises attack by one stage per use."""
+    return int(power * (1 + STAGE_BONUS * stages))
