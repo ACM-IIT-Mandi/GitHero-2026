@@ -18,3 +18,8 @@ def can_move(status, turns_frozen):
 def critical(power, attack_type, defend_type):
     """A critical hit ignores a resisted match-up."""
     return int(power * 1.5 * max(1.0, multiplier(attack_type, defend_type)))
+
+
+def counter(damage_taken):
+    """Counter returns double the last hit taken."""
+    return damage_taken * 2
