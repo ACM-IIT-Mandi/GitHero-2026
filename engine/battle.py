@@ -1,10 +1,10 @@
 """Damage rules of the League battle engine."""
-from engine.types import multiplier
+from engine.types import effectiveness
 
 
 def damage(power, attack_type, defend_type):
     """Damage of one hit."""
-    return int(power * multiplier(attack_type, defend_type))
+    return int(power * effectiveness(attack_type, defend_type))
 
 
 FREEZE_TURNS = 3

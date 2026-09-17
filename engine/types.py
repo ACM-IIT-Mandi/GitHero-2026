@@ -13,6 +13,6 @@ CHART = {
 }
 
 
-def multiplier(attack_type, defend_type):
+def effectiveness(attack_type, defend_type):
     """How hard a move of attack_type hits a Pokemon of defend_type."""
     return CHART.get((attack_type, defend_type), 1.0)
