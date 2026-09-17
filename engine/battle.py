@@ -4,7 +4,7 @@ from engine.types import effectiveness
 
 def damage(power, attack_type, defend_type):
     """Damage of one hit."""
-    return int(power * effectiveness(attack_type, defend_type))
+    return max(1, int(power * effectiveness(attack_type, defend_type)))
 
 
 FREEZE_TURNS = 3
