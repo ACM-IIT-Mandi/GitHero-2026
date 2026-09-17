@@ -31,3 +31,16 @@ STAGE_BONUS = 0.5
 def boosted(power, stages):
     """Dragon Dance raises attack by one stage per use."""
     return int(power * (1 + STAGE_BONUS * stages))
+
+
+OUTRAGE_TURNS = 2
+
+
+def locked_in(move, turns_used):
+    """Outrage locks the user in for two turns."""
+    return move == "outrage" and turns_used < OUTRAGE_TURNS
+
+
+def after_move(move, turns_used):
+    """Outrage confuses the user when it ends."""
+    return "confused" if move == "outrage" and turns_used >= OUTRAGE_TURNS else None
