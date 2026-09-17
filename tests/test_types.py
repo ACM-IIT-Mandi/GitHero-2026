@@ -13,6 +13,9 @@ class TypeChartTest(unittest.TestCase):
     def test_unknown_pair_is_neutral(self):
         self.assertEqual(multiplier("fire", "fire"), 1.0)
 
+    def test_ice_freezes_grass(self):
+        self.assertEqual(multiplier("ice", "grass"), 2.0)
+
 
 if __name__ == "__main__":
     unittest.main()

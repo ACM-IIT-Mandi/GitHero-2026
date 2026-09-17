@@ -7,6 +7,9 @@ CHART = {
     ("water", "grass"): 0.5,
     ("grass", "water"): 2.0,
     ("grass", "fire"): 0.5,
+    ("ice", "grass"): 2.0,
+    ("ice", "water"): 0.5,
+    ("fire", "ice"): 2.0,
 }
 
 
