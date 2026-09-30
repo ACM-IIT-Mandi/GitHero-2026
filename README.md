@@ -35,3 +35,5 @@ Team Rocket has raided the Pokémon League. The Champion's Trophy and the Gym Ba
 `git status`, `git log --oneline --graph --all` and `git reflog` are your Town Map.
 
 Practice: https://learngitbranching.js.org, https://ohmygit.org
+
+Answers are case-sensitive. Type them exactly as written in the issue.
