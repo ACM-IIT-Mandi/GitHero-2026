@@ -1,0 +1,4 @@
+A wild Pokemon appeared in the tall grass!
+It looks strong.
+What will you do?
+Alakazam
