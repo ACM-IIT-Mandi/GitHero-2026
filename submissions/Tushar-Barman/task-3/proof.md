@@ -411,5 +411,7 @@ output:- 640ca589 (Aryan Raj 2026-09-21 10:27:00 +0530 1) Mewtwo notes - Cerulea
 640ca589 (Aryan Raj 2026-09-21 10:27:00 +0530 9) Observation continues.
 answer:- commit :- 604ed8ab author :- archer
 
+https://github.com/ACM-IIT-Mandi/GitHero-2026/pull/40
 
+python badge.py Tushar-Barman "ilphScope"
 
