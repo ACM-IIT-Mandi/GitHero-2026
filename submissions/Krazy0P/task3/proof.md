@@ -107,3 +107,7 @@ git blame -L 7,7 ./lab/mewtwo_notes.txt
 
 author: Archer
 commit: 604ed8a
+
+https://github.com/ACM-IIT-Mandi/GitHero-2026/pull/22
+
+badge: b8dc5890
