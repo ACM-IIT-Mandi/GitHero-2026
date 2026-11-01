@@ -96,4 +96,10 @@ Output:
 640ca589 (Aryan Raj 2026-09-21 10:27:00 +0530 9) Observation continues.
 
 Answer(Que4): 604ed8ab (Archer    2026-09-26 15:02:00 +0530 7) Subject escaped the containment tank.
-So Archer changed the 7 line 
+So Archer changed the 7 line in commit 604ed8ab
+
+https://github.com/ACM-IIT-Mandi/GitHero-2026/pull/30
+
+python badge.py rakshitjain026-cyber "SilphScope"
+
+
