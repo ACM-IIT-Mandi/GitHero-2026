@@ -15,3 +15,6 @@ Author: Aryan Raj <aryanraj1092@gmail.com>
 Date:   Mon Sep 21 10:27:00 2026 +0530
 
     add mewtwo lab notes
+
+
+https://github.com/ACM-IIT-Mandi/GitHero-2026/pull/20
