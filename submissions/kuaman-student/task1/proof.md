@@ -2,4 +2,4 @@
   main
 * task-1/kuaman-student
 https://github.com/ACM-IIT-Mandi/GitHero-2026/pull/9
-python badge.py kuaman-student "Charmander"
+python badge.py kuaman-student "Charmander" : 532ace37

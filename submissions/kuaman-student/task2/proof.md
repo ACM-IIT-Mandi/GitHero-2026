@@ -35,4 +35,4 @@ f1525cf HEAD@{3}: commit: feat: kuaman-student chooses Charmender
 
 https://github.com/ACM-IIT-Mandi/GitHero-2026/pull/13
 
-python badge.py kuaman-student Alakazam
+python badge.py kuaman-student Alakazam : 3c7882ea
