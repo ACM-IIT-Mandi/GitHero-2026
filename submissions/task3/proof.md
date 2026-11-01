@@ -18,3 +18,6 @@ Date:   Mon Sep 21 10:27:00 2026 +0530
 
 
 https://github.com/ACM-IIT-Mandi/GitHero-2026/pull/20
+
+
+python badge.py kuaman-student SilphScope
